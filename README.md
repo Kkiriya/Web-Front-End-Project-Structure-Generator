@@ -10,18 +10,18 @@ PS: I'm not responsable for anything weird that could happen when running the sc
 Project/
 ├─ client/
 │ ├─ css/
-│ │ └─ `style.css`
+│ │ └─ style.css
 │ ├─ images/
 │ ├─ js/
-│ │ └─ `global.js`
+│ │ └─ global.js
 │ ├─ pages/
 │ └─ utilitaires/
 ├─ serveur/
 ├─ utilitaires/
-│ ├─ `bootsrap-5.3.8-dist/...`
-│ ├─ `bootsrap-icons-1.13.1/...`
-│ └─ `jquery-4.0.0.mins.js`
-└─ `index.html`
+│ ├─ bootsrap-5.3.8-dist/...
+│ ├─ bootsrap-icons-1.13.1/...
+│ └─ jquery-4.0.0.mins.js
+└─ index.html
 ```
 
 ## Installation
