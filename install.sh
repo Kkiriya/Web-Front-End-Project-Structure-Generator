@@ -17,7 +17,7 @@ RESET='\033[0m'
 default_shell="$(basename "$SHELL")"
 
 # contains the alais to be appended to you shells config file
-alias="alias wb-gen='./generator.sh'"
+alias="alias wb-gen='$HOME/web-structure-gen/generator.sh'"
 
 #Contains the proper config file to append
 config_file=""
@@ -32,7 +32,7 @@ esac
 if [ -n "$config_file" ] && ! grep -q "$alias" "$config_file"; then
     echo "$alias" >> "$config_file"
     printf "$GREEN \nInstallation Succesful! \nrun the script by typing $CYAN'wb-gen'$GREEN in your terminal in the desired directory! $RESET \n"
-    source $config_file # applies the change to your shell
+    source $config_file >/dev/null 2>&1 # applies the change to your shell
 elif grep -q "$alias" "$config_file"; then
     printf "$YELLOW \nAlready Installed! \nrun the script by typing $CYAN'wb-gen'$YELLOW in your terminal in the desired directory! $RESET \n"
 else

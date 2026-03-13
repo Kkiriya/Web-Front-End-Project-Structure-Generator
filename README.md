@@ -6,6 +6,7 @@ PS: I'm not responsable for anything weird that could happen when running the sc
 
 ## Schematic of the created structure
 
+```
 Project/
 ├─ client/
 │ ├─ css/
@@ -21,6 +22,7 @@ Project/
 │ ├─ `bootsrap-icons-1.13.1/...`
 │ └─ `jquery-4.0.0.mins.js`
 └─ `index.html`
+```
 
 ## Installation
 
